@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert Values</title>
+</head>
+<body>
+    <br><h1><u>Insert New Product Record:</u></h1>
+    <form action="insert_new_record.php" method="POST">
+        <table>
+            <tr>
+                <th>
+                    Enter Product ID:
+                </th>
+                <td>
+                    <input type="text" name=PID>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Enter Product Name:
+                </th>
+                <td>
+                    <input type="text" name=Pname>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Enter Product Price:
+                </th>
+                <td>
+                    <input type="text" name=Pprice>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Enter Product Description:
+                </th>
+                <td>
+                    <input type="text" name=Pdesc>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Insert">
+                    <input style = "margin-left: 75px;" type="reset" value="Clear">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <br><br>
+    <form action="MAIN.html">
+        <input style="height: 25px; width: 200px; margin-left: 10px; margin-top: 15px;" type="submit" value="<= Back to Main Page">
+    </form>
+</body>
+</html>

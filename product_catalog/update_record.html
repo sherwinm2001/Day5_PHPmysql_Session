@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Values</title>
+</head>
+<body>
+    <br><h1><u>Update Product Record:</u></h1><br>
+    <form action="update_record.php" method="POST">
+        <table>
+            <tr>
+                <th>
+                    Enter Name of the Product whose price you want to update:
+                </th>
+                <td>
+                    <input type="text" name=UpdateProduct>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Enter new/updated Price of the Product:
+                </th>
+                <td>
+                    <input type="text" name=UpdatePrice>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Update" name=Update>
+                    <input style = "margin-left: 70px;" type="reset" value="Clear">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <br><br>
+    <form action="MAIN.html">
+        <input style="height: 25px; width: 200px; margin-left: 10px; margin-top: 15px;" type="submit" value="<= Back to Main Page">
+    </form>
+</body>
+</html>
